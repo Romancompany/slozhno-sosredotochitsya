@@ -1,4 +1,81 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+
+:root {
+  /* декоративная графика */
+  --decorated-zone__size: 25px;
+
+  /* для десктопа */ 
+  --header__theme-menu_justify-content: center;
+  --header__theme-menu_align-items: flex-start;
+  --header__theme-menu-list_flex-direction: row;
+  --header__theme-menu-list_align-items: center;
+  --second-section_grid-template-columns: 1fr 1fr 1fr; 
+  --section__first_gap: 10px;
+
+  /* для планшета, десктопа */ 
+  --padding: 20px;
+  --header__grid-template-areas: 
+      "header header"
+      "content content"
+      ". footer";
+  --header__title_left: -20px;
+  --header__title_font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --header__title_line-height: 130px;
+  --section__first_grid-template-columns: 1fr 2fr; 
+  --header__margin-bottom: 60px;
+  --section__first_grid-template-areas:
+      "header header2";
+  --section__first_margin-bottom: 80px;
+  --section__second_grid-template-areas:
+      "header ."
+      "header2 header2";
+  --section__second_grid-template-columns: 1fr 2fr;
+
+/* для темы dark*/
+  --color_decorated: #FF0070;
+  --color_rec: #FF0070;
+  --color_title: #DB00FF;
+  --accent-color: #ff0070;
+  --background-image: url(../images/cover-image-dark.png);
+  --text-title_color: #000028;
+  --text-title_background-color: #FF0070;
+  --text-bold-color: #FF0070;
+  --text-paragraph-color: #F1B2CE;
+}
+
+/* для мобильных */
+@media (max-width: 375px) {
+  :root {
+    --padding: 10px;
+    --header__grid-template-areas:   
+      "header header"
+      "content content"
+      "footer footer";
+    --header__title_left: 0px;
+    --header__title_font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --header__title_line-height: 96px;
+    --section__first_grid-template-columns: 1fr; 
+    --header__margin-bottom: 40px;
+    --section__first_grid-template-areas:
+      "header"
+      "header2";
+    --section__first_margin-bottom: 50px;
+    --section__second_grid-template-areas:
+      "header"
+      "header2";
+    --section__second_grid-template-columns: 1fr;      
+  }
+
+}
+
+/* для мобильных, планшета */
+@media (max-width: 768px) {
+  :root {
+    --header__theme-menu_justify-content: flex-end;
+    --header__theme-menu_align-items: center;
+    --header__theme-menu-list_flex-direction: column;
+    --header__theme-menu-list_align-items: flex-start;  
+    --section_gap: 20px;
+    --second-section_grid-template-columns: 1fr; 
+    --section__first_gap: 20px;
+  }
+}
