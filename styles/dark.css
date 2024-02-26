@@ -5,6 +5,7 @@
   --color_title: #DB00FF;
   --accent-color: #ff0070;
   --background-image: url(../images/cover-image-dark.png);
+  --background-color: #000;
   --text-title_color: #000028;
   --text-title_background-color: #FF0070;
   --text-bold-color: #FF0070;
@@ -19,6 +20,7 @@
         --color_title: #DB00FF;
         --accent-color: #ff0070;
         --background-image: url(../images/cover-image-dark.png);
+        --background-color: #000;
         --text-title_color: #000028;
         --text-title_background-color: #FF0070;
         --text-bold-color: #FF0070;
@@ -34,6 +36,7 @@
   --color_title: #DB00FF;
   --accent-color: #ff0070;
   --background-image: url(../images/cover-image-dark.png);
+  --background-color: #000;
   --text-title_color: #000028;
   --text-title_background-color: #FF0070;
   --text-bold-color: #FF0070;

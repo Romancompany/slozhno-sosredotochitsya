@@ -5,6 +5,7 @@
   --color_title:#FFC2E6;
   --accent-color: #FF8DCB;
   --background-image: url(../images/cover-image-light.png);
+  --background-color: #fff;
   --text-title_color: #353430;
   --text-title_background-color: #FF8DCB;
   --text-bold-color: #353430;
@@ -20,6 +21,7 @@
       --color_title:#FFC2E6;
       --accent-color: #FF8DCB;
       --background-image: url(../images/cover-image-light.png);
+      --background-color: #fff;
       --text-title_color: #353430;
       --text-title_background-color: #FF8DCB;
       --text-bold-color: #353430;
@@ -33,6 +35,7 @@
   --color_title:#FFC2E6;
   --accent-color: #FF8DCB;
   --background-image: url(../images/cover-image-light.png);
+  --background-color: #fff;
   --text-title_color: #353430;
   --text-title_background-color: #FF8DCB;
   --text-bold-color: #353430;
