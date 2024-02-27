@@ -1,15 +1,15 @@
 :root.theme-dark {
   /* Дублируем переменные для тёмной темы */
-  --color_decorated: #FF0070;
-  --color_rec: #FF0070;
-  --color_title: #DB00FF;
+  --color_decorated: #ff0070;
+  --color_rec: #ff0070;
+  --color_title: #db00ff;
   --accent-color: #ff0070;
   --background-image: url(../images/cover-image-dark.png);
-  --background-color: #000;
+  --background-color: #000028;
   --text-title_color: #000028;
-  --text-title_background-color: #FF0070;
-  --text-bold-color: #FF0070;
-  --text-paragraph-color: #F1B2CE;
+  --text-title_background-color: #ff0070;
+  --text-bold-color: #ff0070;
+  --text-paragraph-color: #f1b2ce;
 }
 
 /*
@@ -20,7 +20,7 @@
         --color_title: #DB00FF;
         --accent-color: #ff0070;
         --background-image: url(../images/cover-image-dark.png);
-        --background-color: #000;
+        --background-color: #000028;
         --text-title_color: #000028;
         --text-title_background-color: #FF0070;
         --text-bold-color: #FF0070;
@@ -31,14 +31,14 @@
 
 /* Остальные стили */
 .page.theme_dark {
-  --color_decorated: #FF0070;
-  --color_rec: #FF0070;
-  --color_title: #DB00FF;
+  --color_decorated: #ff0070;
+  --color_rec: #ff0070;
+  --color_title: #db00ff;
   --accent-color: #ff0070;
   --background-image: url(../images/cover-image-dark.png);
-  --background-color: #000;
+  --background-color: #000028;
   --text-title_color: #000028;
-  --text-title_background-color: #FF0070;
-  --text-bold-color: #FF0070;
-  --text-paragraph-color: #F1B2CE;
+  --text-title_background-color: #ff0070;
+  --text-bold-color: #ff0070;
+  --text-paragraph-color: #f1b2ce;
 }
