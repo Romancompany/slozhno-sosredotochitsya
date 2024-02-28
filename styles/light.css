@@ -1,13 +1,14 @@
 /* Переменные светлой темы */
 :root.theme-light {
-  --color_decorated: #353430;
-  --color_rec: transparent;
-  --color_title: #ffc2e6;
+  --decorated-zone_color: #353430;
+  --decorated-zone-hover_color: rgb(53 52 48 / 0.4);
+  --header__rec_color: transparent;
+  --title_color: #ffc2e6;
   --accent-color: #ff8dcb;
-  --background-image: url(../images/cover-image-light.png);
+  --background-image: url(./images/cover-image-light.png);
   --background-color: #fff1f7;
-  --text-title_color: #353430;
-  --text-title_background-color: #ff8dcb;
+  --title-decor_color: #353430;
+  --title-decor_background_color: #ff8dcb;
   --text-bold-color: #353430;
   --text-paragraph-color: #353430;
 }
@@ -16,28 +17,30 @@
 /* Дублируем переменные светлой темы */
 @media (prefers-color-scheme: light) {
   :root {
-    --color_decorated: #353430;
-    --color_rec: transparent;
-    --color_title: #ffc2e6;
+    --decorated-zone_color: #353430;
+    --decorated-zone-hover_color: rgb(53 52 48 / 0.4);
+    --header__rec_color: transparent;
+    --title_color: #ffc2e6;
     --accent-color: #ff8dcb;
-    --background-image: url(../images/cover-image-light.png);
+    --background-image: url(./images/cover-image-light.png);
     --background-color: #fff1f7;
-    --text-title_color: #353430;
-    --text-title_background-color: #ff8dcb;
+    --title-decor_color: #353430;
+    --title-decor_background_color: #ff8dcb;
     --text-bold-color: #353430;
     --text-paragraph-color: #353430;
   }
 }
 
 .page.theme_light {
-  --color_decorated: #353430;
-  --color_rec: transparent;
-  --color_title: #ffc2e6;
+  --decorated-zone_color: #353430;
+  --decorated-zone-hover_color: rgb(53 52 48 / 0.4);
+  --header__rec_color: transparent;
+  --title_color: #ffc2e6;
   --accent-color: #ff8dcb;
-  --background-image: url(../images/cover-image-light.png);
+  --background-image: url(./images/cover-image-light.png);
   --background-color: #fff1f7;
-  --text-title_color: #353430;
-  --text-title_background-color: #ff8dcb;
+  --title-decor_color: #353430;
+  --title-decor_background_color: #ff8dcb;
   --text-bold-color: #353430;
   --text-paragraph-color: #353430;
 }
