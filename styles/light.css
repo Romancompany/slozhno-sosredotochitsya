@@ -1,20 +1,4 @@
 /* Переменные светлой темы */
-:root.theme-light {
-  --decorated-zone_color: #353430;
-  --decorated-zone-hover_color: rgb(53 52 48 / 0.4);
-  --header__rec_color: transparent;
-  --title_color: #ffc2e6;
-  --accent-color: #ff8dcb;
-  --background-image: url(./images/cover-image-light.png);
-  --background-color: #fff1f7;
-  --title-decor_color: #353430;
-  --title-decor_background_color: #ff8dcb;
-  --text-bold-color: #353430;
-  --text-paragraph-color: #353430;
-}
-
-/* Остальные стили */
-/* Дублируем переменные светлой темы */
 @media (prefers-color-scheme: light) {
   :root {
     --decorated-zone_color: #353430;
@@ -22,7 +6,7 @@
     --header__rec_color: transparent;
     --title_color: #ffc2e6;
     --accent-color: #ff8dcb;
-    --background-image: url(./images/cover-image-light.png);
+    --background-image: url(../images/cover-image-light.png);
     --background-color: #fff1f7;
     --title-decor_color: #353430;
     --title-decor_background_color: #ff8dcb;
@@ -37,7 +21,7 @@
   --header__rec_color: transparent;
   --title_color: #ffc2e6;
   --accent-color: #ff8dcb;
-  --background-image: url(./images/cover-image-light.png);
+  --background-image: url(../images/cover-image-light.png);
   --background-color: #fff1f7;
   --title-decor_color: #353430;
   --title-decor_background_color: #ff8dcb;
